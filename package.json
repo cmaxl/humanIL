@@ -9,6 +9,7 @@
   "scripts": {
     "dev": "vite",
     "build": "run-p type-check \"build-only {@}\" --",
+    "deploy": "vite build && gh-pages -d dist",
     "preview": "vite preview",
     "build-only": "vite build",
     "type-check": "vue-tsc --build",
@@ -25,6 +26,7 @@
     "@types/node": "^22.18.11",
     "@vitejs/plugin-vue": "^6.0.1",
     "@vue/tsconfig": "^0.8.1",
+    "gh-pages": "^6.3.0",
     "npm-run-all2": "^8.0.4",
     "prettier": "3.6.2",
     "typescript": "~5.9.0",
