@@ -404,6 +404,10 @@ function gameLoop() {
       <p>🟢: Set point</p>
       <p>🔴: Process variable</p>
     </details>
+
+    <footer>
+      <p>© 2025 Cornelius Mosch <a href="github.com/cmaxl/humanIL">GitHub</a></p>
+    </footer>
     
   </article>
 </template>
