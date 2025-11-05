@@ -390,7 +390,7 @@ function gameLoop() {
     <details>
       <summary role="button" class="contrast outline">PID</summary>
       <p>Observe behaviour of controller (manual set point, no scoring)</p>
-      <p><img src="/images/humanil-game-openL.svg" class="dark-mode-invert"></img></p>
+      <p><img src="/images/humanil-game-PID.svg" class="dark-mode-invert"></img></p>
       <p>🎚️ Slider: Set point value</p>
       <p>🟢: Set point</p>
       <p>🔴: Process variable</p>
@@ -399,7 +399,7 @@ function gameLoop() {
     <details>
       <summary role="button" class="contrast outline">PID (observe)</summary>
       <p>Observe behaviour of controller (function as set point)</p>
-      <p><img src="/images/humanil-game-openL.svg" class="dark-mode-invert"></img></p>
+      <p><img src="/images/humanil-game-PID-auto.svg" class="dark-mode-invert"></img></p>
       <p>🎚️ Slider: deactivated</p>
       <p>🟢: Set point</p>
       <p>🔴: Process variable</p>
